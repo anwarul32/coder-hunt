@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="shortcut icon" href="/homeImg.jpg" type="image/x-icon" />
       </Head>
 
-      <main className="flex min-h-screen flex-col items-center justify-between p-24"> 
+      <main className="flex min-h-screen flex-col items-center justify-between p-3"> 
         <div className="relative flex flex-col place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
           <h1 className="text-center font-bold text-5xl
           ">Hunting Coder</h1>
@@ -27,9 +27,9 @@ export default function Home() {
             width={890}
             height={150}
             priority
-            className="my-5 border border-red-900 rounded-2xl"
+            className="my-5 border border-gray-500 rounded-2xl"
           />
-           <p className="text-2xl mb-5">
+           <p className="text-2xl mb-10">
             A blog for hunting coders by a hunting coder
           </p>
         </div>
@@ -39,7 +39,7 @@ export default function Home() {
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="next.js doc page"
           >
             <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
               Docs{" "}
@@ -58,7 +58,7 @@ export default function Home() {
             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="next.js learn page"
           >
             <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
               Learn{" "}
@@ -77,7 +77,7 @@ export default function Home() {
             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="next.js templates page"
           >
             <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
               Templates{" "}
@@ -96,7 +96,7 @@ export default function Home() {
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
             className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="next.js deployment page"
           >
             <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
               Deploy{" "}
